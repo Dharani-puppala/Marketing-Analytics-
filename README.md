@@ -1,4 +1,4 @@
-# Marketing-Analytics-
+# Marketing-Analytics-Business-Case
 PYTHON,SQL(SSMS), EXCEL, POWERBI
 
 # Introduction to Business Problem
