@@ -37,7 +37,7 @@ The error message "Access is denied (Error 5)" indicates that SQL Server does no
    - Right-click on the SSMS shortcut and choose Run as Administrator.
    - Try restoring the database again.
 2. Grant Permissions to SQL Server Service Account
-   - Find the SQL Server Service Account:
+   - Find the SQL Server Service Account:(C:\Windows\SysWOW64\SQLServerManager16.msc)
    - Open SQL Server Configuration Manager.
    - Navigate to SQL Server Services.
    - Locate SQL Server (SQLEXPRESS).
