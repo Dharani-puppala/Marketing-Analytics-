@@ -27,6 +27,63 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
 3. **Improve Customer Feedback Scores**:
    - **Goal**: Understand common themes in customer reviews and provide actionable insights.
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
+   - 
+# STEP 1: Extracting and Cleaning Marketing Data with SQL
+
+## Purpose
+
+This project focuses on preparing marketing data for analysis by applying a series of SQL queries for categorization, enrichment, cleaning, and standardization. The goal is to enhance the quality and usability of the data, enabling better insights and decision-making for marketing strategies.
+
+## Steps and Context
+
+### 1. **Categorizing Products by Price**
+
+Products are divided into three categories based on their price:
+- **Low**: Less than $50
+- **Medium**: Between $50 and $200
+- **High**: Greater than $200
+
+This categorization helps with targeted marketing strategies and segmentation.
+
+### 2. **Enriching Customer Data with Geographic Information**
+
+Using a `LEFT JOIN` between the `Customers` and `Geography` tables to enrich customer profiles with location-based data.
+
+Geographic insights help personalize marketing campaigns and optimize regional strategies.
+
+### 3. **Cleaning Customer Reviews for Sentiment Analysis**
+
+- Removing whitespace issues in reviews using the `REPLACE` function.
+- Clean reviews are crucial for accurate sentiment analysis and understanding customer feedback.
+
+### 4. **Normalizing Engagement Data**
+
+Standardizing data fields such as dates, text, and URLs using SQL functions like:
+- `UPPER`
+- `LEFT`
+- `FORMAT`
+- `REPLACE`
+
+This ensures consistency and uniformity for accurate reporting and analysis.
+
+### 5. **Identifying and Removing Duplicate Records**
+
+Using a Common Table Expression (CTE) to detect duplicate entries in the `Customer_Journey` table based on:
+- `CustomerID`
+- `ProductID`
+- `VisitDate`
+- `Stage`
+- `Action`
+
+- Retaining only the first occurrence while handling missing values (e.g., replacing null `Duration` values with the average for the same `VisitDate`).
+- Ensures data integrity and removes redundancy.
+
+## Key Benefits
+
+- **Improved data consistency and quality for analysis.**
+- **Enhanced ability to identify customer behavior patterns.**
+- **A solid foundation for advanced insights and optimized marketing strategies.**
+  
 ## Error1
 
 The error message "Access is denied (Error 5)" indicates that SQL Server does not have the necessary permissions to write the database files to the specified location.
