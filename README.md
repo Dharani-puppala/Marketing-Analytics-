@@ -32,22 +32,20 @@ The error message "Access is denied (Error 5)" indicates that SQL Server does no
 
 Solution Steps:
 1. Run SSMS as Administrator
-Close SQL Server Management Studio (SSMS).
-Right-click on the SSMS shortcut and choose Run as Administrator.
-Try restoring the database again.
+   - Close SQL Server Management Studio (SSMS).
+   - Right-click on the SSMS shortcut and choose Run as Administrator.
+   - Try restoring the database again.
 2. Grant Permissions to SQL Server Service Account
-Find the SQL Server Service Account:
-
-Open SQL Server Configuration Manager.
-Navigate to SQL Server Services.
-Locate SQL Server (SQLEXPRESS).
-Check the Log On As column (commonly NT SERVICE\MSSQL$SQLEXPRESS or NT AUTHORITY\SYSTEM).
-Grant Full Control to the SQL Server Service Account:
-
-Navigate to C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA.
-Right-click on the folder and choose Properties.
-Go to the Security tab.
-Click Edit, then Add.
-Enter the SQL Server service account (e.g., NT SERVICE\MSSQL$SQLEXPRESS).
-Grant Full Control permissions and click Apply > OK.
+   - Find the SQL Server Service Account:
+   - Open SQL Server Configuration Manager.
+   - Navigate to SQL Server Services.
+   - Locate SQL Server (SQLEXPRESS).
+   - Check the Log On As column (commonly NT SERVICE\MSSQL$SQLEXPRESS or NT AUTHORITY\SYSTEM).
+   - Grant Full Control to the SQL Server Service Account:
+   - Navigate to C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA.
+   - Right-click on the folder and choose Properties.
+   - Go to the Security tab.
+   - Click Edit, then Add.
+   - Enter the SQL Server service account (e.g., NT SERVICE\MSSQL$SQLEXPRESS).
+   - Grant Full Control permissions and click Apply > OK.
 
