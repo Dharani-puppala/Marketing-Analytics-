@@ -27,4 +27,27 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
 3. **Improve Customer Feedback Scores**:
    - **Goal**: Understand common themes in customer reviews and provide actionable insights.
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
+## Error1
+The error message "Access is denied (Error 5)" indicates that SQL Server does not have the necessary permissions to write the database files to the specified location.
+
+Solution Steps:
+1. Run SSMS as Administrator
+Close SQL Server Management Studio (SSMS).
+Right-click on the SSMS shortcut and choose Run as Administrator.
+Try restoring the database again.
+2. Grant Permissions to SQL Server Service Account
+Find the SQL Server Service Account:
+
+Open SQL Server Configuration Manager.
+Navigate to SQL Server Services.
+Locate SQL Server (SQLEXPRESS).
+Check the Log On As column (commonly NT SERVICE\MSSQL$SQLEXPRESS or NT AUTHORITY\SYSTEM).
+Grant Full Control to the SQL Server Service Account:
+
+Navigate to C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL\DATA.
+Right-click on the folder and choose Properties.
+Go to the Security tab.
+Click Edit, then Add.
+Enter the SQL Server service account (e.g., NT SERVICE\MSSQL$SQLEXPRESS).
+Grant Full Control permissions and click Apply > OK.
 
