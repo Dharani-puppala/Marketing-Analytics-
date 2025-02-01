@@ -28,9 +28,10 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
    - **Goal**: Understand common themes in customer reviews and provide actionable insights.
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
 ## Error1
+
 The error message "Access is denied (Error 5)" indicates that SQL Server does not have the necessary permissions to write the database files to the specified location.
 
-Solution Steps:
+**Solution Steps:**
 1. Run SSMS as Administrator
    - Close SQL Server Management Studio (SSMS).
    - Right-click on the SSMS shortcut and choose Run as Administrator.
