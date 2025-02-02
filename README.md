@@ -28,7 +28,7 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
    - **Goal**: Understand common themes in customer reviews and provide actionable insights.
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
    - 
-# STEP 1: Extracting and Cleaning Marketing Data with SQL
+# STEP 1: Extracting and Cleaning Marketing Data with SQL(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
 
 ## Purpose
 
