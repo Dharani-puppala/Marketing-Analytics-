@@ -27,17 +27,19 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
 3. **Improve Customer Feedback Scores**:
    - **Goal**: Understand common themes in customer reviews and provide actionable insights.
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
-   - 
-## STEP 1: Extracting and Cleaning Marketing Data with SQL,EXCEL
-   -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
-## STEP 2: Customer Review Sentiment Analysis Using SQL & Python
-   -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
 
 ## Purpose
 
 This project focuses on preparing marketing data for analysis by applying a series of SQL queries for categorization, enrichment, cleaning, and standardization. The goal is to enhance the quality and usability of the data, enabling better insights and decision-making for marketing strategies.
 
-## Steps and Context
+## STEPS
+1: **Extracting and Cleaning Marketing Data with SQL,EXCEL**
+   -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
+2: **Customer Review Sentiment Analysis Using SQL & Python**
+   -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
+
+
+## Context
 ### STEP 1: Extracting and Cleaning Marketing Data with SQL,EXCEL
    -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
  1. **Categorizing Products by Price**
