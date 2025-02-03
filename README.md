@@ -33,15 +33,17 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
 This project focuses on preparing marketing data for analysis by applying a series of SQL queries for categorization, enrichment, cleaning, and standardization. The goal is to enhance the quality and usability of the data, enabling better insights and decision-making for marketing strategies.
 
 ## STEPS
-1: **Extracting and Cleaning Marketing Data with SQL,EXCEL**
+1: **Analyzing client request**
+
+2: **Extracting and Cleaning Marketing Data with SQL,EXCEL**
    -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
    
-2: **Customer Review Sentiment Analysis Using SQL & Python**
+3: **Customer Review Sentiment Analysis Using SQL & Python**
    -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
 
 
 ## Context
-### STEP 1: Extracting and Cleaning Marketing Data with SQL,EXCEL
+### STEP 2: Extracting and Cleaning Marketing Data with SQL,EXCEL
    -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
  1. **Categorizing Products by Price**
 
@@ -85,7 +87,7 @@ Using a Common Table Expression (CTE) to detect duplicate entries in the `Custom
 - Retaining only the first occurrence while handling missing values (e.g., replacing null `Duration` values with the average for the same `VisitDate`).
 - Ensures data integrity and removes redundancy.
   
-### STEP 2: Customer Review Sentiment Analysis Using SQL & Python
+### STEP 3: Customer Review Sentiment Analysis Using SQL & Python
    -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)**
   
 1. **Import pandas, nltk, pyodbc, SentimentIntensityAnalyzer**
