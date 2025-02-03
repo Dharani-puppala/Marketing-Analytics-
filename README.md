@@ -38,7 +38,8 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
 This project focuses on preparing marketing data for analysis by applying a series of SQL queries for categorization, enrichment, cleaning, and standardization. The goal is to enhance the quality and usability of the data, enabling better insights and decision-making for marketing strategies.
 
 ## Steps and Context
-
+   **STEP 1: Extracting and Cleaning Marketing Data with SQL,EXCEL
+   -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)**
 ### 1. **Categorizing Products by Price**
 
 Products are divided into three categories based on their price:
