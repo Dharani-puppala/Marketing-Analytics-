@@ -29,9 +29,9 @@ Despite increased investment in marketing, ShopEasy has observed a decline in cu
    - **Insight**: Identify recurring positive and negative feedback to guide product and service improvements.
    - 
 ## STEP 1: Extracting and Cleaning Marketing Data with SQL,EXCEL
-### (SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
+   -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
 ## STEP 2: Customer Review Sentiment Analysis Using SQL & Python
-### (SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
+   -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
 
 ## Purpose
 
