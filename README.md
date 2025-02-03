@@ -85,6 +85,49 @@ Using a Common Table Expression (CTE) to detect duplicate entries in the `Custom
 ### STEP 2: Customer Review Sentiment Analysis Using SQL & Python
    -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)**
   
+1. **Import pandas, nltk, pyodbc, SentimentIntensityAnalyzer**
+   
+- `pandas`
+- `nltk`
+- `pyodbc`
+- `sqlalchemy`
+
+2. **Dowload vader_lexicon (Valence Aware Dictionary and sEntiment Reasoner) required for sentiment analysis.**
+   
+    - `vaderSentiment`
+      
+3. **Fetch Data from SQL Database**
+   
+   -Create a function to fetch data from your SQL database using `pyodbc` and `pandas.read_sql()`
+   
+4. **Perform Sentiment Analysis**
+
+   -Use the `SentimentIntensityAnalyzer` from `nltk` to calculate sentiment scores.
+   
+5. **Categorize Sentiment Based on Score**
+
+   -Define categories based on sentiment scores (positive, neutral, negative).
+   
+6. **Bucket Sentiment Scores**
+
+   -Create a function that buckets sentiment scores into predefined text categories.
+   
+7. **Apply Sentiment Analysis**
+   
+   -Apply the sentiment analysis function on the dataset to get sentiment scores.
+   
+8. **Apply Sentiment Categorization**
+
+   -Apply the categorization function to the sentiment scores.
+   
+9. **Apply Bucketing**
+
+   -Apply the bucketing function on the sentiment scores.
+   
+10. **Save to CSV File**
+  
+   -Save the results into a CSV file.
+  
 ## Key Benefits
 
 - **Improved data consistency and quality for analysis.**
