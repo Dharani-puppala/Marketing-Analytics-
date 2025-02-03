@@ -81,7 +81,9 @@ Using a Common Table Expression (CTE) to detect duplicate entries in the `Custom
 
 - Retaining only the first occurrence while handling missing values (e.g., replacing null `Duration` values with the average for the same `VisitDate`).
 - Ensures data integrity and removes redundancy.
-
+**STEP 2: Customer Review Sentiment Analysis Using SQL & Python
+   -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)**
+  
 ## Key Benefits
 
 - **Improved data consistency and quality for analysis.**
