@@ -35,6 +35,7 @@ This project focuses on preparing marketing data for analysis by applying a seri
 ## STEPS
 1: **Extracting and Cleaning Marketing Data with SQL,EXCEL**
    -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
+   
 2: **Customer Review Sentiment Analysis Using SQL & Python**
    -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
 
