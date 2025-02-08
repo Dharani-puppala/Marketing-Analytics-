@@ -44,6 +44,7 @@ This project focuses on preparing marketing data for analysis by applying a seri
    - (POWER BI, POWER QUERY,DAX,SQL,CSV)
 
 
+
 ## Context
 ### STEP 2: Extracting and Cleaning Marketing Data with SQL,EXCEL
    -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
@@ -136,9 +137,8 @@ Using a Common Table Expression (CTE) to detect duplicate entries in the `Custom
    -Save the results into a CSV file.
 
 
-## Step 4:  Building an Interactive Dashboard in Power BI 
-	- (PowerBI)
-
+## Step 4:  Building an Interactive Dashboard in Power BI**
+   - (POWER BI, POWER QUERY,DAX,SQL,CSV)
 
 1. **Import Data from SQL Server**
 - Connect to the `PortfolioProject_MarketingAnalytics` database in SQL Server.
