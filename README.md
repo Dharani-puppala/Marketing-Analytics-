@@ -40,7 +40,8 @@ This project focuses on preparing marketing data for analysis by applying a seri
    
 3: **Customer Review Sentiment Analysis Using SQL & Python**
    -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
-4. **Building an Interactive Dashboard in Power BI**
+   
+4: **Building an Interactive Dashboard in Power BI**
    - (POWER BI, POWER QUERY,DAX,SQL,CSV)
 
 
