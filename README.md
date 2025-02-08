@@ -36,10 +36,10 @@ This project focuses on preparing marketing data for analysis by applying a seri
 1: **Analyzing client request**
 
 2: **Extracting and Cleaning Marketing Data with SQL,EXCEL**
-   -(SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
+   - (SSMS,EXCEL,SQL SERVER EXPRESS,SQL PROFILER,CTE)
    
 3: **Customer Review Sentiment Analysis Using SQL & Python**
-   -(SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
+   - (SSMS,EXCEL,PYTHON(VSCODE),PANDAS,pyodbc,nltk,SentimentIntensityAnalyzer,vader_lexicon)
    
 4: **Building an Interactive Dashboard in Power BI**
    - (POWER BI, POWER QUERY,DAX,SQL,CSV)
