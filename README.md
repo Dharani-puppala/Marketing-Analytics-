@@ -241,4 +241,25 @@ The error message "Access is denied (Error 5)" indicates that SQL Server does no
    - Click Edit, then Add.
    - Enter the SQL Server service account (e.g., NT SERVICE\MSSQL$SQLEXPRESS).
    - Grant Full Control permissions and click Apply > OK.
+##  Error3 
+**Conversion Rate Calculation**: Updated Conversion Rate Calculation due to issues retrieving conversion rate.
+```DAX
+Conversion Rate Debug = 
+VAR TotalVisitors = 
+    CALCULATE(
+        COUNT(fact_customer_journey[JourneyID]), 
+        ALL(fact_customer_journey),
+        fact_customer_journey[Action] = "View"
+    )
+
+VAR TotalPurchases = 
+    CALCULATE(
+        COUNT(fact_customer_journey[JourneyID]), 
+        ALL(fact_customer_journey),
+        fact_customer_journey[Action] = "Purchase"
+    )
+
+RETURN 
+TotalVisitors & " | " & TotalPurchases
+```
 
