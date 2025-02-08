@@ -241,6 +241,8 @@ The error message "Access is denied (Error 5)" indicates that SQL Server does no
    - Click Edit, then Add.
    - Enter the SQL Server service account (e.g., NT SERVICE\MSSQL$SQLEXPRESS).
    - Grant Full Control permissions and click Apply > OK.
+## Error2
+Ensure `Engagement Date` is set to `Date` instead of `Text`
 ##  Error3 
 **Conversion Rate Calculation**: Updated Conversion Rate Calculation due to issues retrieving conversion rate.
 ```DAX
