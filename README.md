@@ -209,9 +209,16 @@ IF(TotalVisitors = 0, 0, DIVIDE(TotalPurchases, TotalVisitors))
 - **Graphs**:
   - Conversion Rate vs. Month Name
   - Conversion Rate vs. Product Name
+## Insights
+![Image](https://github.com/user-attachments/assets/aaaa1c7a-2982-42bd-ae83-dc1fb88cef17)
 
+![Image](https://github.com/user-attachments/assets/c78b6f53-4f6d-4ae6-8de5-24ed8b3985c3)
 
+![Image](https://github.com/user-attachments/assets/2c1ffa0d-71b8-43c9-9f8b-604f301eb211)
 
+![Image](https://github.com/user-attachments/assets/80d0cd1b-4f61-48eb-bcae-88276a601858)
+
+![Image](https://github.com/user-attachments/assets/2346c3d7-e63d-46e5-8371-f519bcf7d396)
   
 ## Key Benefits
 
