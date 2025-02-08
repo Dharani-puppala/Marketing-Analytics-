@@ -134,6 +134,84 @@ Using a Common Table Expression (CTE) to detect duplicate entries in the `Custom
 10. **Save to CSV File**
   
    -Save the results into a CSV file.
+
+
+## Step 4:  Building an Interactive Dashboard in Power BI 
+	- (PowerBI)
+
+
+1. **Import Data from SQL Server**
+- Connect to the `PortfolioProject_MarketingAnalytics` database in SQL Server.
+- Import relevant tables into Power BI.
+
+2. **Transform Data in Power Query**
+- Clean data using Power Query.
+- Remove unnecessary columns and duplicates.
+- Ensure correct data types (Date, Text, Whole Numbers).
+
+3. **SQL Data Cleaning**
+- Modify SQL queries in the source by using functions such as `REPLACE()` and appropriate data type conversions.
+- Remove the default navigator query.
+
+4. **Import Sentiment Analysis CSV**
+- Load the CSV file generated from the Python sentiment analysis process.
+- Ensure correct mappings and relationships.
+
+5. **Establish Relationships**
+- Delete older connections and create new **1:M relationships** where necessary.
+- Create a **Date Table** and establish 1:M relationships between:
+  - Date
+  - Review Date
+  - Engagement Date
+  - Visit Date
+
+6. **Create a Measures Table ("Calculations"),DAX (Data Analysis Expressions)**:
+
+```DAX
+Clicks = SUM(fact_customer_journey[Clicks])
+Likes = SUM(fact_customer_journey[Likes])
+Views = SUM(fact_customer_journey[Views])
+No_of_Campaigns = DISTINCTCOUNT(fact_customer_journey[CampaignID])
+No_of_Customer_Journeys = DISTINCTCOUNT(fact_customer_journey[JourneyID])
+Rating_Average = AVERAGE(fact_customer_feedback[Rating])
+```
+
+#### Conversion Rate Calculation
+```DAX
+Conversion Rate Debug = 
+VAR TotalVisitors = 
+    CALCULATE(
+        COUNT(fact_customer_journey[JourneyID]), 
+        fact_customer_journey[Action] = "View"
+    )
+
+VAR TotalPurchases = 
+    CALCULATE(
+        COUNT(fact_customer_journey[JourneyID]), 
+        fact_customer_journey[Action] = "Purchase"
+    )
+
+RETURN
+IF(TotalVisitors = 0, 0, DIVIDE(TotalPurchases, TotalVisitors))
+```
+
+7. **Build the Report View**
+- **Cards**:
+  - Clicks
+  - Likes
+  - Views
+  - Conversion Rate
+  - Rating Average
+  - Product Name
+- **Slicers**:
+  - Month
+  - Year
+- **Graphs**:
+  - Conversion Rate vs. Month Name
+  - Conversion Rate vs. Product Name
+
+
+
   
 ## Key Benefits
 
